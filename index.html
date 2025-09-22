@@ -6,7 +6,7 @@
 <style>
   :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
   body { margin: 24px; }
-  .card { max-width: 560px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 16px; }
+  .card { max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 16px; }
   .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
   label { font-size: 12px; opacity: .75; display:block; margin-bottom:6px }
   input, select { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 10px; font-size: 16px; }
@@ -41,7 +41,7 @@
 <script>
 (async () => {
   // Public, no-key example endpoint. Swap for your preferred provider if needed.
-  const API = 'https://api.exchangerate.host/latest?base=EUR';
+  const API = 'https://api.exchangerate.host/latest?access_key=58ef342f902990a7be5c86bf40df1371';
   const amountEl = document.getElementById('amount');
   const fromEl = document.getElementById('from');
   const toEl = document.getElementById('to');
