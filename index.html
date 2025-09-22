@@ -9,7 +9,7 @@
   .card { max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 16px; }
   .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
   label { font-size: 12px; opacity: .75; display:block; margin-bottom:6px }
-  input, select { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 10px; font-size: 16px; }
+  input, select { width: 80%; padding: 12px; border: 1px solid #ccc; border-radius: 10px; font-size: 16px; }
   .result { font-size: 20px; margin-top: 12px; }
   .meta { font-size: 12px; opacity: .7; margin-top: 8px; }
 </style>
@@ -41,7 +41,7 @@
 <script>
 (async () => {
   // Public, no-key example endpoint. Swap for your preferred provider if needed.
-  const API = 'https://api.exchangerate.host/latest?access_key=58ef342f902990a7be5c86bf40df1371';
+  const API = 'https://api.exchangerate.host/latest?access_key=58ef342f902990a7be5c86bf40df1371'&from=JPY&to=EUR;
   const amountEl = document.getElementById('amount');
   const fromEl = document.getElementById('from');
   const toEl = document.getElementById('to');
