@@ -1,2 +1,2 @@
 # currency-calculator
-simple currency calc
+simple currency calc for a Notion project
